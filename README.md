@@ -1,4 +1,34 @@
 [![Build Status](https://github.com/ytdl-org/youtube-dl/workflows/CI/badge.svg)](https://github.com/ytdl-org/youtube-dl/actions?query=workflow%3ACI)
+# installation notes
+
+install with 
+```shell
+brew install youtube-dl
+```
+
+# download videos
+```shell
+cd /Volumes/ADATA\ HD710/
+yt-dlp https://www.youtube.com/@hristovatev/videos
+yt-dlp https://www.youtube.com/@eleazarharash/videos
+yt-dlp https://www.youtube.com/@EleazarHarashSvetanaknigite/videos
+yt-dlp https://www.youtube.com/@EleazarHarashFoundation/videos
+yt-dlp https://www.youtube.com/@portal12/videos
+```
+
+# copy videos to audio folder
+
+# convert videos to audio
+```shell
+yt-dlp https://www.youtube.com/@hristovatev/videos --extract-audio --audio-format mp3
+yt-dlp https://www.youtube.com/@eleazarharash/videos --extract-audio --audio-format mp3
+yt-dlp https://www.youtube.com/@EleazarHarashSvetanaknigite/videos --extract-audio --audio-format mp3
+yt-dlp https://www.youtube.com/@EleazarHarashFoundation/videos --extract-audio --audio-format mp3
+yt-dlp https://www.youtube.com/@portal12/videos --extract-audio --audio-format mp3
+```
+
+
+---
 
 
 youtube-dl - download videos from youtube.com or other video platforms
